@@ -1,0 +1,11 @@
+region = 'us-east-1'
+environment = 'pre-prod'
+
+max_active_runs = 1
+child_max_active_runs = 10
+child_parallel_count = 10
+schedule_interval = "*/5 * * * *"
+execution_timeout_days = 14
+file_sensor_timeout = 10
+process_log_generation_max_active_runs = 1
+time_zone = 'EST'
